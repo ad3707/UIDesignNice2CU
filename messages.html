@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="Nice2CUtemplate.css">
     </head>
 
   <style>
 
+  html{
+      font-family: Avenir;
+  }
 
 #screen {
   height: 811px;
 }
+
+#screen{
+    width: 414px;
+    height: 800px;
+    margin: 16px auto;
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    background-color:#C4D8E2;
+}
+
+.roundedheader{
+    width: 405px;
+    height: 60px;
+    background-color: #E2ECF1;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.rectangleheader{
+    width: 412px;
+    height: 55px;
+    background-color: #E2ECF1;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #000D74;
+}
+
     #messages{
       background-color:rgba(255,255,255,0.5);
       height: 70px;
@@ -26,8 +69,9 @@
       border-radius: 10px;
       background-color:rgba(255,255,255,0.5);
       margin: auto;
-      margin-top: 10px;
+      margin-top: 5px;
       margin-bottom: 17px;
+      text-align: left;
 
     }
 
@@ -35,18 +79,39 @@
       height: 38px;
       width: 38px;
       border-radius: 100px;
+      margin: 5px 14px 16px 11px;
+    }
+
+    #search_pic {
+      height: 25px;
+      width: 25px;
+      border-radius: 100px;
+      margin: 3px 14px 16px 11px;
+    }
+
+    #connectionsProfiles {
+      height: 38px;
+      width: 38px;
+      border-radius: 100px;
       margin: 16px 14px 16px 11px;
+      border-color: #000D74;
+      border-style: solid;
+      border-width: 3px;
 
     }
 
     #campuspic {
-      margin-top: 480px;
-      positon: absolute;
+      margin-top: 510px;
+      background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('campus.jpeg');
+      background-size: cover;
+      width: 414px;
       height: 204px;
+      color: white;
+      border-radius: 44px;
     }
 
     #container {
-      margin-top: -660px;
+      margin-top: -700px;
     }
 
     #header {
@@ -62,10 +127,8 @@
       margin-right: 14px;
       position: absolute;
       font-size: 12px;
-      margin-top: 20px;
+      margin-top: 10px;
     }
-
-
 
   </style>
     <body>
@@ -92,7 +155,7 @@
 
     <div id = "container">
       <div id = "search">
-        <img id = "profile_pic" src = "https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" alt = "profile picture of Carter">
+        <img id = "search_pic" src = "search.png" alt = "search icon">
         <span id = "text"> Search </span>
       </div>
 
@@ -101,7 +164,7 @@
   </div>
 
   <div id = "messages">
-      <span> <img id = "profile_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
+      <span> <img id = "connectionsProfiles" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
 
   </div>
 
@@ -131,8 +194,6 @@
               <div id = "messages">
                 <img id = "profile_pic" src = "pexels-monstera-6311487 (1).jpg" alt = "profile picture of Carter">
                 <span id = "text"> <div> <b> Amy </b> </div>  <div> Let’s grab coffee at Joe’s around 10:15? I have... </div>  </span>
-
-
               </div>
 
               <div id = "messages">
