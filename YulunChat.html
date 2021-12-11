@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <head>
+        <title> Nice2CU </title>
+      </head>
+    </head>
+
+  <style>
+
+  html{
+      font-family: Avenir;
+  }
+
+
+  #screen{
+      width: 414px;
+      height: 800px;
+      margin: 16px auto;
+      border-width: 8px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 50px;
+      background-color:#C4D8E2;
+  }
+
+  .roundedheader{
+      width: 405px;
+      height: 60px;
+      background-color: #E2ECF1;
+      margin-top: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px;
+  }
+
+  .rectangleheader{
+      width: 411px;
+      height: 42px;
+      background-color: #E2ECF1;
+      margin-top: -31px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .title{
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 500;
+      font-size: 30px;
+      font-style: normal;
+      color: #000D74;
+  }
+
+    #messagesOther{
+      background-color:rgba(255,255,255,1);
+      height: 70px;
+      width:195px;
+      border-radius: 10px;
+      margin:12px 20px 12px 15px;
+      float:left;
+
+    }
+
+    #messages{
+      background-color:rgba(255,255,255,1);
+      height: 70px;
+      width:200px;
+      border-radius: 10px;
+      margin:20px 20px 12px 20px;
+      float: right;
+    }
+
+    #search {
+      height: 36px;
+      width: 327px;
+      border-radius: 10px;
+      background-color:rgba(255,255,255,0.5);
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 17px;
+    }
+
+    #profile_pic {
+      height: 42px;
+      width: 42px;
+      border-radius: 100px;
+      margin: -10px 20px 19px 20px;
+    }
+
+    #text_pic {
+      height: 25px;
+      width: 25px;
+      border-radius: 100px;
+      margin: 38px 10px 20px 15px;
+      float: left;
+    }
+
+    #keyboard {
+      margin-right: 25px;
+      margin-left: -51px;
+      width: 485px;
+      height: 293px;
+      color: white;
+      border-radius: 44px;
+      margin-top: 410px;
+      position: absolute;
+    }
+
+    #container {
+      margin-top: 0px;
+    }
+
+    #header {
+      margin-left: 25px;
+      margin-top: -30px;
+      position: absolute;
+      font-size: 12px;
+      text-align: justify;
+
+    }
+
+    #text {
+      margin-right: 14px;
+      margin-left: 2px;
+      position: absolute;
+      font-size: 12px;
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .rectangleheader {
+      height: 50px;
+    }
+
+    #input {
+      height: 86px;
+      width: 413px;
+      background-color: white;
+      margin-top: 360px;
+      margin-bottom: 0px;
+      position: absolute;
+    }
+
+
+
+    #firstmessage{
+      width: 414px;
+      height: 100px;
+    }
+
+    #secondmessage{
+      width: 414px;
+      height: 100px;
+      margin-top: 10px;
+    }
+
+    #thirdmessage{
+      width: 414px;
+      height: 100px;
+      margin-top: 10px;
+    }
+
+    #typing{
+      width: 414px;
+      height: 720px;
+      margin-top: -320px;
+    }
+
+
+  </style>
+    <body>
+
+      <div id="screen">
+        <div class="roundedheader">
+        </div>
+
+        <div class="rectangleheader">
+          <img id = "profile_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter">
+          <span id = "header"> <div> <h2> Yulun </h2> </div>  <div> Offline </div>  </span>
+        </div>
+
+<div id = "container">
+
+
+  <!-- first message from hannah -->
+  <div id="firstmessage">
+      <span> <img id = "text_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Hannah"> </span>
+      <span id = "messagesOther">
+        <span id = "text">  </span>
+      </span>
+  </div>
+
+  <!-- second message (from me)-->
+  <div id="secondmessage">
+    <div id = "messages">
+      <div id = "text">  </div>
+    </div>
+  </div>
+
+  <!-- third message (from Hannah)-->
+  <div id="thirdmessage">
+    <span> <img id = "text_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
+    <span id = "messagesOther">
+      <span id = "text">  </span>
+    </span>
+  </div>
+
+
+</div>
+
+<div id="typing">
+  <div id = "input">
+    <p> <center> Sure! I'll head over after my UI OH in 20 minutes. </center> </p>
+  </div>
+  <div id = "keyboard">
+    <img  src = "keyboard.png" alt = "profile picture of Carter" height = 330px width = 525px>
+  </div>
+</div>
+
+
+      </div>
+
+    </body>
+</html>
