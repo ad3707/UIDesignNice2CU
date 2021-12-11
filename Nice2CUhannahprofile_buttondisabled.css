@@ -1,0 +1,152 @@
+html{
+    font-family: Avenir;
+}
+
+#screen{
+    width: 414px;
+    height: 800px;
+    margin: 16px auto;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    background-color:#C4D8E2;
+}
+
+.roundedheader{
+    width: 405px;
+    height: 60px;
+    background-color: #E2ECF1;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.rectangleheader{
+    width: 412px;
+    height: 55px;
+    background-color: #E2ECF1;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #000D74;
+}
+
+#campuspic {
+    margin-top: 520px;
+    background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('campus.jpeg');
+    background-size: cover;
+    width: 414px;
+    height: 204px;
+    color: white;
+    border-radius: 44px;
+}
+
+#avatar {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#bio {
+    margin-right: 30px;
+    margin-top: 55px;
+    float: right;
+    text-align: right;
+    color:#000D74;
+}
+
+#Name {
+    font-size: 20px;
+    margin-top: 7px;
+    font-weight: 500;
+    color: #000D74;
+    margin-left: 30px;
+}
+
+.h1 {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+#h2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #000D74;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+#h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000D74;
+    margin-left: 44px;
+    margin-top:15px;
+}
+
+#textbox {
+    margin-left: 44px;
+    height: 88px;
+    width: 290px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #E2ECF1;
+    padding: 2px;
+}
+
+#text {
+    margin-left: 20px;
+    margin-top:15px;
+    color: #000D74;
+}
+
+#content {
+    margin-top: -920px;
+}
+
+#content1{
+    margin-top: -750px;
+    margin-bottom: -30px;
+    height: 200px;
+}
+
+#container{
+    margin-top: 20px;
+}
+
+#content2{
+    margin-top: -10px;
+}
+
+#content3{
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#message{
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #E2ECF1;
+    padding: 2px;
+    color: #000D74;
+    font-size: 18px;
+    font-weight: 300;
+}
