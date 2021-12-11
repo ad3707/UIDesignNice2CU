@@ -10,14 +10,23 @@
 #screen {
   height: 811px;
 }
-    #messages{
-      background-color:rgba(255,255,255,0.5);
+    #messagesOther{
+      background-color:rgba(255,255,255,1);
       height: 70px;
-      width:327px;
+      width:195px;
       border-radius: 10px;
-      margin:auto;
-      margin-bottom: 12px;
+      margin:12px 20px 12px 65px;
+      float:left;
 
+    }
+
+    #messages{
+      background-color:rgba(255,255,255,1);
+      height: 70px;
+      width:200px;
+      border-radius: 10px;
+      margin:20px 20px 12px 20px;
+      float: right;
     }
 
     #search {
@@ -32,21 +41,35 @@
     }
 
     #profile_pic {
-      height: 38px;
-      width: 38px;
+      height: 42px;
+      width: 42px;
       border-radius: 100px;
-      margin: 16px 14px 16px 11px;
+      margin: -10px 20px 19px 20px;
+    }
+
+    #text_pic {
+      height: 25px;
+      width: 25px;
+      border-radius: 100px;
+      margin: 38px 10px 20px 15px;
+      float: left;
+
 
     }
 
-    #campuspic {
-      margin-top: 480px;
-      positon: absolute;
-      height: 204px;
+    #keyboard {
+      margin-right: 25px;
+      margin-left: -51px;
+      width: 485px;
+      height: 293px;
+      color: white;
+      border-radius: 44px;
+      margin-top: 420px;
+      position: absolute;
     }
 
     #container {
-      margin-top: -660px;
+      margin-top: 0px;
     }
 
     #header {
@@ -62,7 +85,20 @@
       margin-right: 14px;
       position: absolute;
       font-size: 12px;
-      margin-top: 20px;
+      margin-top: 10px;
+    }
+
+    .rectangleheader {
+      height: 50px;
+    }
+
+    #input {
+      height: 86px;
+      width: 413px;
+      background-color: white;
+      margin-top: 360px;
+      margin-bottom: 0px;
+      position: absolute;
     }
 
 
@@ -76,76 +112,43 @@
                 </div>
 
                 <div class="rectangleheader">
-                    <div class="title">
-                        <span><center>Nice2CU</center></span>
-
-                    </div>
-
+                  <img id = "profile_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter">
+                  <span id = "text"> <div> <h2> Hannah </h2> </div>  <div> Online </div>  </span>
                 </div>
 
-<div>
-
-
-
-  <div id="campuspic">
-    </div>
 
     <div id = "container">
-      <div id = "search">
-        <img id = "profile_pic" src = "https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" alt = "profile picture of Carter">
-        <span id = "text"> Search </span>
-      </div>
+<div>
 
-<div id = "header">
-    <h5> NEW CONNECTIONS </h5>
-  </div>
+  <span> <img id = "text_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
 
-  <div id = "messages">
-      <span> <img id = "profile_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
-
-  </div>
-
-<div id = "header">
-  <h5> RECENT MESSAGES </h5>
+<span id = "messagesOther">
+    <span id = "text">  Cool, let’s say Butler at 7? There’s actually a... </span>
+  </span>
 </div>
 
+<div id = "messages">
+  <div id = "text">  Cool, let’s say Butler at 7? There’s actually a... </div>
+</div>
 
-                <div id = "messages">
-                    <img id = "profile_pic" src = "https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" alt = "profile picture of Carter">
-                    <span id = "text"> <div> <b> Carter </b> </div>  <div> R u going to the tree lighting? </div>  </span>
-                </div>
-
-                <div id = "messages">
-                  <img id = "profile_pic" src = "https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" alt = "profile picture of Carter">
-                  <span id = "text"> <div> <b> Thomas </b> </div>  <div> Cool, let’s say Butler at 7? There’s actually a... </div>  </span>
-
-                </div>
-
-                <div id = "messages">
-                  <img id = "profile_pic" src = "pexels-photo-3987028.webp" alt = "profile picture of Carter">
-                  <span id = "text"> <div> <b> Jenny </b> </div>  <div> I love boba! </div>  </span>
-
-
-              </div>
-
-              <div id = "messages">
-                <img id = "profile_pic" src = "pexels-monstera-6311487 (1).jpg" alt = "profile picture of Carter">
-                <span id = "text"> <div> <b> Amy </b> </div>  <div> Let’s grab coffee at Joe’s around 10:15? I have... </div>  </span>
-
-
-              </div>
-
-              <div id = "messages">
-                <img id = "profile_pic" src = "pexels-armin-rimoldi-5553671.jpeg" alt = "profile picture of Carter">
-                <span id = "text"> <div> <b> Vincent </b> </div>  <div> Are you still getting Ski Club emails?  </div>  </span>
-
-             </div>
-
-            </div>
-
-
-
+<div>
+  <span> <img id = "text_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter"> </span>
+<span id = "messagesOther">
+    <span id = "text">  Cool, let’s say Butler at 7? There’s actually a... </span>
+  </span>
+</div>
           </div>
+
+          <div id = "input">
+          </div>
+
+          <div id = "keyboard">
+          <img  src = "keyboard.png" alt = "profile picture of Carter" height = 330px width = 525px>
+          </div>
+
+
+
+        </div>
 
     </body>
 </html>
