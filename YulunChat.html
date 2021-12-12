@@ -53,14 +53,6 @@
       color: #000D74;
   }
 
-      #arrow {
-      height: 25px;
-      width: 25px;
-      border-radius: 100px;
-      margin: 8px 10px 20px 15px;
-      float: left;
-    }
-      
     #messagesOther{
       background-color:rgba(255,255,255,1);
       height: 70px;
@@ -176,6 +168,14 @@
       margin-top: -320px;
     }
 
+    #arrow {
+      height: 25px;
+      width: 25px;
+      border-radius: 100px;
+      margin: 8px 10px 20px 15px;
+      float: left;
+    }
+
 
   </style>
     <body>
@@ -185,6 +185,7 @@
         </div>
 
         <div class="rectangleheader">
+          <img id = "arrow" src = "backarrow.png" width = 20px height = 20px>
           <img id = "profile_pic" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Carter">
           <span id = "header"> <div> <h2> Yulun </h2> </div>  <div> Offline </div>  </span>
         </div>
@@ -231,4 +232,11 @@
       </div>
 
     </body>
+
+    <script>
+    document.getElementById('arrow').onclick = function() {
+      window.location.href =  'messages.html'
+    }
+    </script>
+
 </html>
