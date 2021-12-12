@@ -1,69 +1,172 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #C4D8E2;
-  height: 100%;
-  width: 100%;
+
+html{
+  font-family: Avenir;
 }
 
-.mainbody {
-  position: fixed;
-  top: 60px;
-  bottom: 0px;
-  z-index: -1;
-  display: block;
+#screen {
+  height: 811px;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #E2ECF1;
+#screen{
+    width: 414px;
+    height: 800px;
+    margin: 16px auto;
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    background-color:#C4D8E2;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #000D74;
+.roundedheader{
+    width: 405px;
+    height: 60px;
+    background-color: #E2ECF1;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
 }
 
-.topnav a:hover {
-  background-color: #E2ECF1;
-  color: black;
+.rectangleheader{
+    width: 412px;
+    height: 55px;
+    background-color: #E2ECF1;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.title {
-  display: block;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 24px;
-  color: #000D74;
+.title{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #000D74;
+    width: 50%;
+    position:relative;
+    z-index: 100;
 }
 
-.topnav a:not(:first-child) {display: none;}
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: black;
+#messages{
+  background-color:rgba(255,255,255,0.5);
+  height: 70px;
+  width:327px;
+  border-radius: 10px;
+  margin:auto;
+  margin-bottom: 12px;
+
 }
 
-/*.topnav.responsive {position: relative;}*/
-.topnav.responsive a.icon {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: black;
-}
-.topnav.responsive a {
-  float: none;
-  display: block;
+#search {
+  height: 36px;
+  width: 327px;
+  border-radius: 10px;
+  background-color:rgba(255,255,255,0.5);
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 17px;
   text-align: left;
+
 }
 
+#profile_pic {
+  height: 38px;
+  width: 38px;
+  border-radius: 100px;
+  margin: 5px 14px 16px 11px;
+}
 
+#search_pic {
+  height: 25px;
+  width: 25px;
+  border-radius: 100px;
+  margin: 3px 14px 16px 11px;
+}
+
+#connectionsProfiles {
+  height: 38px;
+  width: 38px;
+  border-radius: 100px;
+  margin: 16px 14px 16px 11px;
+  border-color: #000D74;
+  border-style: solid;
+  border-width: 3px;
+
+}
+
+#campuspic {
+  position: absolute;
+  top: 500px;
+  /*margin-top: -90px;*/
+  background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('../../campus.jpeg');
+  background-size: cover;
+  width: 414px;
+  height: 204px;
+  color: white;
+  border-radius: 44px;
+  z-index: 1;
+}
+
+#container {
+  margin-top: -700px;
+}
+
+#header {
+  margin-left: 31px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  font-family: 'Avenir';
+  color: "#1E1E1E";
+}
+
+#text {
+  margin-right: 14px;
+  position: absolute;
+  font-size: 12px;
+  margin-top: 10px;
+}
+    
+/* logo, navigation menu styling */
+.togglediv {
+    overflow: hidden;
+    background-color: #E2ECF1;
+    position: relative;
+    z-index: 10;
+    margin-top: -20px;
+    /*width: 50px;*/
+}
+
+/* styling navigation menu */
+.togglediv #menus {
+    display: none;
+}
+
+/* link specific styling */
+.togglediv a {
+    text-decoration: none;
+    color: #000D74;
+    padding: 6px 16px;
+    font-size: 16px;
+    display: block;
+}
+
+/* navigation toggle menu styling */
+.togglediv a.icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    top: -12px;
+    z-index: 20;
+}
+
+/* hover effect on navigation logo and menu */
+/*        .togglediv a:hover {
+    background-color: #ddd;
+    color: #000D74;
+}*/
