@@ -23,8 +23,8 @@
       border-radius: 50px;
       background-color:#C4D8E2;
   }
-      
-        #arrow {
+
+  #arrow {
       height: 25px;
       width: 25px;
       border-radius: 100px;
@@ -185,6 +185,7 @@
         </div>
 
         <div class="rectangleheader">
+          <img id = "arrow" src = "backarrow.png" width = 20px height = 20px>
           <img id = "profile_pic" src = "pexels-armin-rimoldi-5553671.jpeg" alt = "profile picture of Vincent">
           <span id = "header"> <div> <h2> Vincent </h2> </div>  <div> Offline </div>  </span>
         </div>
@@ -192,7 +193,6 @@
 <div id = "container">
 
 
-  <!-- first message from hannah -->
   <div id="firstmessage">
       <span> <img id = "text_pic" src = "pexels-armin-rimoldi-5553671.jpeg" alt = "profile picture of Vincent"> </span>
       <span id = "messagesOther">
@@ -200,14 +200,14 @@
       </span>
   </div>
 
-  <!-- second message (from me)-->
+
   <div id="secondmessage">
     <div id = "messages">
       <div id = "text"> Bruh me too. But the waitlist is so <br> longgg.  </div>
     </div>
   </div>
 
-  <!-- third message (from Hannah)-->
+
   <div id="thirdmessage">
     <span> <img id = "text_pic" src = "pexels-armin-rimoldi-5553671.jpeg" alt = "profile picture of Vincent"> </span>
     <span id = "messagesOther">
@@ -231,4 +231,11 @@
       </div>
 
     </body>
+
+    <script>
+    document.getElementById('arrow').onclick = function() {
+      window.location.href =  'messages.html'
+    }
+    </script>
+
 </html>
