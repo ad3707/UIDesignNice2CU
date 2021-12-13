@@ -1,6 +1,49 @@
 <!DOCTYPE html>
-  
-  
-  
-  
-  </html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Nice2CUlogin.css">
+    </head>
+    <body>
+        <div id="screen">
+            
+            <div class="roundedheader">
+
+            </div>
+            <div class="rectangleheader">
+                
+                <div class="title">
+                    <span><center>Nice2CU</center></span>
+                </div>
+            </div>
+            <div id="campuspic">
+            </div>
+            <div id="universitylogo">
+                <center><img src="logo.png" width=280px height=55px></center>
+            </div>
+            
+            <div class="welcome">
+                    <span>Welcome!</span>
+            </div>
+            <div class="signin">
+                <span>Sign in to continue</span>
+            </div>
+
+            <center>
+            <form action="Nice2CUhome.html" method="post">
+                <label for="uni"></label>
+                <input type="text" id="uni" placeholder="UNI" required>
+                <br>
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+                <input type="checkbox" id="staysignedin" unchecked>
+                <label for="staysignedin">Stay signed in</label>
+                <div class="button">
+                    <button id="signin" type="submit">SIGN IN</button>
+                </div>
+            </form>
+            </center>
+
+        </div>
+    </body>
+</html>
