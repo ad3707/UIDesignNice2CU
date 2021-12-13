@@ -55,7 +55,7 @@ html{
 #avatar {
     position: absolute;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #bio {
@@ -104,49 +104,58 @@ html{
     border-radius: 10px;
     background-color: #E2ECF1;
     padding: 2px;
+    font-size: 16px;
 }
 
-#text {
+#text2 {
     margin-left: 20px;
     margin-top:15px;
     color: #000D74;
+    font-size: 16px;
 }
 
 #content {
-    margin-top: -920px;
+    margin-top: 0px;
+    position: relative;
 }
 
 #content1{
-    margin-top: -750px;
-    margin-bottom: -30px;
-    height: 200px;
+    height: 180px;
+    position: relative;
 }
 
 #container{
-    margin-top: 20px;
+/*    margin-top: 20px;*/
+    position: relative;
+    display: block;
 }
 
 #content2{
-    margin-top: -10px;
+    /*margin-top: -10px;*/
+    position: relative;
 }
 
 #content3{
-    margin-top: 20px;
+/*    margin-top: 20px;*/
+    position: relative;
+    z-index: 5;
 }
 
 .button{
-    margin-top: 20px;
+/*    margin-top: 20px;*/
     padding: 20px;
+    position: relative;
 }
 
 #message{
     height: 30px;
     width: 250px;
-    margin-top: 5px;
+/*    margin-top: 5px;*/
     border-radius: 10px;
     background-color: #E2ECF1;
     padding: 2px;
     color: #000D74;
     font-size: 18px;
     font-weight: 300;
+    position: relative;
 }

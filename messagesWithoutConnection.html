@@ -4,6 +4,10 @@
       <head>
         <title> Nice2CU </title>
       </head>
+      <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
     </head>
 
   <style>
@@ -112,7 +116,9 @@
     }
 
     #container {
-      margin-top: -700px;
+      margin-top: 0px;
+      position: relative;
+      z-index: 5;
     }
 
     #header {
@@ -144,6 +150,22 @@
                         <span><center>Nice2CU</center></span>
 
                     </div>
+                    <div class="togglediv">
+                        <a href="#" class=""> .</a>
+                        <div id="menus">
+                            <a href="Map6.html">Home</a>
+                            <a href="messages.html">Connections</a>
+                            <a href="Nice2CUFionaProfile.html">Profile</a>
+                        </div>
+             
+                        <a href="javascript:void(0);" class="icon"
+                                onclick="togglefunction()">
+             
+                            <i onclick="myFunction(this)"
+                                    class="fa fa-bars">
+                            </i>
+                        </a>
+                    </div>
 
                 </div>
 
@@ -151,8 +173,9 @@
 
 
 
-  <div id="campuspic">
-    </div>
+
+    <div class="maincanvas" style="height:700px; position:relative;">
+
 
     <div id = "container">
       <div id = "search">
@@ -197,18 +220,23 @@
               </div>
 
               <div id = "messages">
-                <img class = "profile_pic" id = "Yulun" src = "images/pexels-monstera-6311487 (1).jpg" alt = "profile picture of Yulun">
+                <img class = "profile_pic" id = "Yulun" src = "images/yulun.jpeg" alt = "profile picture of Yulun">
                 <span id = "text"> <div> <b> Yulun </b> </div>  <div> Lets grab coffee at Joes around 10:15? I have... </div>  </span>
               </div>
 
-
             </div>
 
+          <div id="campuspic3"></div>
+
+
+          </div>
 
 
           </div>
 
     </body>
+
+    <script src="assets/js/index.js"></script>
 
     <script>
       

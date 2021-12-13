@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
     </head>
 
     <style>
@@ -128,38 +131,50 @@ html{
     border-radius: 10px;
     background-color: #E2ECF1;
     padding: 2px;
+    font-size: 16px;
+    position:relative;
+    z-index: 10;
 }
 
 #text {
     margin-left: 20px;
     margin-top:15px;
+    font-size: 16px;
+    position:relative;
 }
 
 #content {
     margin-top: -920px;
     /* background-color: purple; */
+    position:relative;
 }
 
 #content1{
-    margin-top: -750px;
+    /*margin-top: -750px;*/
+    margin-top: -20px;
     /* background-color: pink; */
     margin-bottom: -30px;
     height: 200px;
+    /*postiion: absolute;*/
+    position:relative;
 }
 
 #container{
     margin-top: 20px;
     /* background-color: blue; */
+    position:relative;
 }
 
 #content2{
     margin-top: -10px;
     /* background-color: purple; */
+    position:relative;
 }
 
 #content3{
     margin-top: 20px;
     /* background-color: red; */
+    position:relative;
 }
 
     </style>
@@ -174,10 +189,26 @@ html{
                 <div class="title">
                     <span><center>Nice2CU</center></span>
                 </div>
+                <div class="togglediv">
+                        <a href="#" class=""> .</a>
+                        <div id="menus">
+                            <a href="Map5.html">Home</a>
+                            <a href="#">Connections</a>
+                            <a href="Nice2CUFionaProfile.html">Profile</a>
+                        </div>
+             
+                        <a href="javascript:void(0);" class="icon"
+                                onclick="togglefunction()">
+             
+                            <i onclick="myFunction(this)"
+                                    class="fa fa-bars">
+                            </i>
+                        </a>
+                </div>
             </div>
 
-            <div id="campuspic">
-            </div>
+
+            <div class="maincanvas" style="height:700px; width:414px; position:absolute; display: block;">
 
             <!-- <div id="content">     -->
                    
@@ -242,8 +273,21 @@ html{
                             <p>Films, Junzi, <br>Photography, <br> Creative writing</p>
                         </div>
                     </div>   
+
+
+
                 </div>
             <!-- </div>           -->
+            
+
+            <div id="campuspic3">
+                    </div>
+
+
+            </div>
+
         </div>
+
+        <script src="assets/js/index.js"></script>
     </body>
 </html>

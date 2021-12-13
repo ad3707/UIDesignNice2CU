@@ -3,10 +3,6 @@ html{
   font-family: Avenir;
 }
 
-#screen {
-  height: 811px;
-}
-
 #screen{
     width: 414px;
     height: 800px;
@@ -101,7 +97,20 @@ html{
   position: absolute;
   top: 500px;
   /*margin-top: -90px;*/
-  background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('../../campus.jpeg');
+  background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('../../images/campus.jpeg');
+  background-size: cover;
+  width: 414px;
+  height: 204px;
+  color: white;
+  border-radius: 44px;
+  z-index: 1;
+}
+
+#campuspic3 {
+  position: absolute;
+  top: 510px;
+  /*margin-top: -90px;*/
+  background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('../../images/campus.jpeg');
   background-size: cover;
   width: 414px;
   height: 204px;

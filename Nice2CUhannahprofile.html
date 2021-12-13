@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="Nice2CUhannahprofile.css">
+        <link rel="stylesheet" type="text/css" href="Nice2CUhannahprofile_buttondisabled.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
     </head>
     <body>
         <div id="screen">
@@ -13,15 +17,33 @@
                 <div class="title">
                     <span><center>Nice2CU</center></span>
                 </div>
+                <div class="togglediv">
+                        <a href="#" class=""> .</a>
+                        <div id="menus">
+                            <a href="Map6.html">Home</a>
+                            <a href="messages.html">Connections</a>
+                            <a href="Nice2CUFionaProfile.html">Profile</a>
+                        </div>
+             
+                        <a href="javascript:void(0);" class="icon"
+                                onclick="togglefunction()">
+             
+                            <i onclick="myFunction(this)"
+                                    class="fa fa-bars">
+                            </i>
+                        </a>
+                    </div>
             </div>
 
-            <div id="campuspic">
-            </div>
+
+
+            <div class="maincanvas" style="height:700px; position:relative;">
+
                    
                 <div id="content1">
 
                     <div id ="avatar"> 
-                        <center><img src="images/hannah.png" width="450" height="400"></center>
+                        <center><img src="images/hannah.png" width="600" height="450"></center>
                     </div>
 
                     <div id ="bio"> 
@@ -30,7 +52,7 @@
 
                 </div>
 
-                <div id="container">
+                <div id="container2">
                 </div>
             
                 <div id="content2">
@@ -49,7 +71,7 @@
                     </div>
 
                     <div id="textbox">
-                        <div id="text">
+                        <div id="text2">
                             <p>WiCS, <br>Columbia Build Lab, <br> The Fed</p>
                         </div>
                     </div>
@@ -59,15 +81,23 @@
                     </div>
 
                     <div id="textbox">
-                        <div id="text">
+                        <div id="text2">
                             <p>Cooking, <br> Museums & galleries, <br>Dancing, poetry<br></p>
                         </div>
                     </div>
                     
                     <div class="button">
-                        <center><button id="message" type="submit">Message</button></center>
+                        <center><button id="message" type="submit" onclick="window.location.href='messages.html';">Message</button></center>
                     </div>
                 </div>
+
+
+            <div id="campuspic3">
+            </div>
+
+        </div>
         </div>
     </body>
+
+    <script src="assets/js/index.js"></script>
 </html>
