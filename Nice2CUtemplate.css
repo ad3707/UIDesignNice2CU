@@ -46,7 +46,7 @@ html{
 #campuspic{
     margin-top: 272px;
     margin-bottom: 0px;
-    background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('campus.jpeg');
+    background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('images/campus.jpeg');
     background-size: cover;
     width: 414px;
     height: 400px;
