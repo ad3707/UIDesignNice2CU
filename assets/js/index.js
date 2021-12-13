@@ -23,3 +23,6 @@ function togglefunction() {
 function myFunction(x) {
     x.classList.toggle("fa fa-bars");
 }
+
+setTimeout(function() {
+  window.location.href = 'https://ad3707.github.io/UIDesignNice2CU/Map3and4.html';}, 5000);
