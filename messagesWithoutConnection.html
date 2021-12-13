@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <head>
+        <title> Nice2CU </title>
+      </head>
+    </head>
+
+  <style>
+
+  html{
+      font-family: Avenir;
+  }
+
+
+
+#screen{
+    width: 414px;
+    height: 800px;
+    margin: 16px auto;
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    background-color:#C4D8E2;
+}
+
+.roundedheader{
+    width: 405px;
+    height: 60px;
+    background-color: #E2ECF1;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.rectangleheader{
+    width: 412px;
+    height: 55px;
+    background-color: #E2ECF1;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #000D74;
+}
+
+    #messages{
+      background-color:rgba(255,255,255,0.5);
+      height: 70px;
+      width:327px;
+      border-radius: 10px;
+      margin:auto;
+      margin-bottom: 12px;
+
+    }
+
+    #search {
+      height: 36px;
+      width: 327px;
+      border-radius: 10px;
+      background-color:rgba(255,255,255,0.5);
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 17px;
+      text-align: left;
+
+    }
+
+    .profile_pic {
+      height: 38px;
+      width: 38px;
+      border-radius: 100px;
+      margin: 5px 14px 16px 11px;
+    }
+
+    #search_pic {
+      height: 25px;
+      width: 25px;
+      border-radius: 100px;
+      margin: 3px 14px 16px 11px;
+    }
+
+    #connectionsProfiles {
+      height: 38px;
+      width: 38px;
+      border-radius: 100px;
+      margin: 16px 14px 16px 11px;
+      border-color: #000D74;
+      border-style: solid;
+      border-width: 3px;
+
+    }
+
+    #campuspic {
+      margin-top: 510px;
+      background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('campus.jpeg');
+      background-size: cover;
+      width: 414px;
+      height: 204px;
+      color: white;
+      border-radius: 44px;
+    }
+
+    #container {
+      margin-top: -700px;
+    }
+
+    #header {
+      margin-left: 31px;
+      margin-top: 5px;
+      margin-bottom: 9px;
+      font-size: 14px;
+      font-family: 'Avenir';
+      color: "#1E1E1E";
+    }
+
+    #text {
+      margin-right: 14px;
+      position: absolute;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+  </style>
+    <body>
+
+        <div id="screen">
+                <div class="roundedheader">
+
+                </div>
+
+                <div class="rectangleheader">
+                    <div class="title">
+                        <span><center>Nice2CU</center></span>
+
+                    </div>
+
+                </div>
+
+<div>
+
+
+
+  <div id="campuspic">
+    </div>
+
+    <div id = "container">
+      <div id = "search">
+        <img id = "search_pic" src = "search.png" alt = "search icon">
+        <span id = "text"> Search </span>
+      </div>
+
+<div id = "header">
+    <h5> NEW CONNECTIONS </h5>
+  </div>
+
+  <div id = "messages">
+
+  </div>
+
+<div id = "header">
+  <h5> RECENT MESSAGES </h5>
+</div>
+
+
+              <div id = "messages">
+                    <img class = "profile_pic" id = "Hannah" src = "pexels-andrea-piacquadio-3781789-7151495.webp" alt = "profile picture of Hannah">
+                    <span id = "text"> <div> <b> Hannah </b> </div>  <div> Cool! </div>  </span>
+                </div>
+      
+                <div id = "messages">
+                    <img class = "profile_pic" id = "Aditi" src = "IMG_7488.png" alt = "profile picture of Carter">
+                    <span id = "text"> <div> <b> Aditi </b> </div>  <div> R u going to the tree lighting? </div>  </span>
+                </div>
+
+                <div id = "messages">
+                  <img class = "profile_pic" id = "Janelle" src = "https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" alt = "profile picture of Carter">
+                  <span id = "text"> <div> <b> Janelle </b> </div>  <div> Cool, let’s say Butler at 7? There’s actually a... </div>  </span>
+
+                </div>
+
+                <div id = "messages">
+                  <img class = "profile_pic" id = "Tiffany" src = "tiffany.png" alt = "profile picture of Jenny">
+                  <span id = "text"> <div> <b> Tiffany </b> </div>  <div> I love boba! </div>  </span>
+
+
+              </div>
+
+              <div id = "messages">
+                <img class = "profile_pic" id = "Yulun" src = "pexels-monstera-6311487 (1).jpg" alt = "profile picture of Amy">
+                <span id = "text"> <div> <b> Yulun </b> </div>  <div> Let’s grab coffee at Joe’s around 10:15? I have... </div>  </span>
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+
+    </body>
+
+    <script>
+      
+    document.getElementById('Hannah').onclick = function() {
+      window.location.href =  'HannahChat.html'
+    }
+      
+    document.getElementById('Aditi').onclick = function() {
+      window.location.href =  'AditiChat.html'
+    }
+
+    document.getElementById('Janelle').onclick = function() {
+      window.location.href =  'JanelleChat.html'
+    }
+
+    document.getElementById('Tiffany').onclick = function() {
+      window.location.href =  'TiffanyChat.html'
+    }
+
+    document.getElementById('Yulun').onclick = function() {
+      window.location.href =  'YulunChat.html'
+    }
+
+   
+
+   
+
+
+    </script>
+
+</html>
