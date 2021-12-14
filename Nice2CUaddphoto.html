@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    </head>
+
+    <style>
+
+        html{
+            font-family: Avenir;
+        }
+
+        #screen{
+            width: 414px;
+            height: 800px;
+            margin: 16px auto;
+            border-width: 5px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 50px;
+            background-color:#C4D8E2;
+        }
+
+        .roundedheader{
+            width: 405px;
+            height: 60px;
+            background-color: #E2ECF1;
+            margin-top: 1px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 30px;
+        }
+
+        .rectangleheader{
+            width: 412px;
+            height: 55px;
+            background-color: #E2ECF1;
+            margin-top: -47px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+            font-size: 30px;
+            font-style: normal;
+            color: #000D74;
+        }
+
+        #campuspic2{
+            margin-top: 520px;
+            background: linear-gradient(to bottom, #C4D8E2 8.04%, rgba(255, 255, 255, 0)), url('images/campus.jpeg');
+            background-size: cover;
+            width: 414px;
+            height: 204px;
+            color: white;
+            border-radius: 44px;
+        
+        }
+
+        #avatar {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 65px;
+        }
+
+        #Name {
+            font-size: 20px;
+            margin-top: 7px;
+            font-weight: 500;
+            color: #000D74;
+        }
+
+        .h1 {
+            font-size: 15px;
+            color: white;
+            font-weight: 500;
+        }
+
+        #h1a {
+            float: left;
+            font-size: 15px;
+            margin-top: 18px;
+            margin-left: 47px;
+            color: white;
+            font-weight: 500;
+        }
+
+        #h1b {
+            float: right;
+            margin-right: 47px;
+            font-size: 15px;
+            margin-top: 18px;
+            color: white;
+            font-weight: 500;
+        }
+
+        #h1c {
+            font-size: 15px;
+            margin-top: 0px;
+            color: white;
+            font-weight: 500;
+        }
+
+        #h2 {
+            font-size: 15px;
+            font-weight: 500;
+            color: #000D74;
+            margin-top: -20px;
+        }
+
+        #h3 {
+            font-size: 17px;
+            font-weight: 500;
+            color: #000D74;
+            margin-left: 44px;
+            margin-top:15px;
+        }
+
+        #textbox {
+            margin-left: 44px;
+            height: 88px;
+            width: 290px;
+            margin-top: 5px;
+            border-radius: 10px;
+            background-color: #E2ECF1;
+            padding: 2px;
+            font-size: 16px;
+            position:relative;
+            z-index: 10;
+        }
+
+        #text {
+            margin-left: 20px;
+            margin-top: -5px;
+            font-size: 16px;
+            position:relative;
+        }
+
+        #choosefromgallery{
+            float: left;
+            font-size: 15px;
+            margin-top: 18px;
+            margin-left: 47px;
+            color: white;
+            background-color: white;
+            border-width: 100px;
+            border-radius: 10px;
+            border-color: black;
+            font-weight: 500;
+            width: 350px;
+        }
+
+        #takepicnow{
+            float: left;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 47px;
+            color: white;
+            background-color: white;
+            font-weight: 500;
+            width: 350px;
+            border-width: 5px;
+            border-radius: 10px;
+            border-color: black;
+        }
+    </style>
+
+
+
+    <body>
+        <div id="screen">
+
+            <div class="roundedheader">
+            </div>
+
+            <div class="rectangleheader">
+                <div class="title">
+                    <span><center>Nice2CU</center></span>
+                </div>
+                <div class="togglediv">
+                        <a href="#" class=""> .</a>
+                        <div id="menus">
+                            <a href="Map1and2.html">Home</a>
+                            <a href="#">Connections</a>
+                            <a href="Nice2CUProfile.html">Profile</a>
+                        </div>
+             
+                        <a href="javascript:void(0);" class="icon"
+                                onclick="togglefunction()">
+             
+                            <i onclick="myFunction(this)"
+                                    class="fa fa-bars">
+                            </i>
+                        </a>
+                </div>
+            </div>
+
+
+        <div class="maincanvas" style="height:700px; width:414px; position:absolute; display: block;">
+
+            <div id="choosefromgallery">
+                <p><a href="Nice2CUFionaProfile.html" style="text-decoration:none; color:black;">Choose from photo gallery</a></p>
+            </div>
+
+            <div id="takepicnow">
+                <p><a href="Nice2CUFionaProfile.html" style="text-decoration:none; color:black;">Take picture now</a></p>
+            </div>
+                
+            
+            <div id="campuspic3">
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
